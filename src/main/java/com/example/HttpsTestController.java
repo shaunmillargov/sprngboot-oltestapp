@@ -15,8 +15,8 @@ public class HttpsTestController {
 	@RequestMapping(value = "/test1", method = RequestMethod.GET, produces = "application/json")
     public String index() {
 		
-		String httpsURL = "https://httpbin.org/get";
-		//String httpsURL = "https://142.34.67.11/EWS/services.wsdl";
+		//String httpsURL = "https://httpbin.org/get";
+		String httpsURL = "https://142.34.67.11/EWS/services.wsdl";
 		
         URL myUrl;
         
